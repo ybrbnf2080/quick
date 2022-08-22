@@ -1,0 +1,331 @@
+2022/08/22 10:57:24 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:57:25 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:57:26 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:57:26 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:57:28 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:57:30 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:57:33 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:57:40 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:57:54 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:58:19 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 10:59:11 [emerg] 1#1: host not found in upstream "php-fpm:9000" in /etc/nginx/conf.d/upstream.conf:2
+2022/08/22 13:29:13 [error] 8#8: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.8:9000", host: "192.168.31.23:8000"
+2022/08/22 13:52:00 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:39 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:40 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:40 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:41 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:41 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:41 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:41 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:41 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:41 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:42 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:42 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 13:58:42 [error] 7#7: *4 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "192.168.31.23:8000"
+2022/08/22 14:04:31 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:04:31 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:04:31 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:04:32 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:04:32 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:04:32 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:04:43 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:04:43 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:04:44 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:23 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:27 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:28 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:28 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:28 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:28 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:28 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:28 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:29 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:29 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:29 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:29 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:29 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:29 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:30 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:17:30 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 192.168.31.200, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "192.168.31.23:8000"
+2022/08/22 14:18:27 [error] 7#7: *19 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/laravel/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/laravel/bootstrap/autoload.php on line 17
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel/public/index.php:0
+PHP message: PHP   2. require() /var/www/laravel/public/index.php:22" while reading response header from upstream, client: 172.20.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "localhost:8000"
