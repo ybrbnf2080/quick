@@ -10,6 +10,7 @@ services:
         container_name: quick_workspace
         restart: always
         image: sanyok037/qworkspace:v1
+        comand: ["composer",  "install", "&&" , "php", "artisan", "migrate"] 
         volumes_from:
             - application
         tty: true
